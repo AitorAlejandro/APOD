@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ComponentsModule } from './lib/components/components.module';
+import { AppRoutingModule } from './app.routing';
 import { HomeModule } from './views/home/home.module';
 
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     ComponentsModule,
     HomeModule
   ],
