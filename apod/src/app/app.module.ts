@@ -1,11 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ComponentsModule } from './lib/components/components.module';
+
 import { AppRoutingModule } from './app.routing';
+import { ComponentsModule } from './lib/components/components.module';
 import { HomeModule } from './views/home/home.module';
-import { Last10Module } from './views/last-10/last-10.module';
-import { PickADateModule } from './views/pick-a-date/pick-a-date.module';
 import { NotFoundModule } from './views/not-found/not-found.module';
+
 import { AppComponent } from './app.component';
 
 
@@ -19,8 +19,6 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     ComponentsModule,
     HomeModule,
-    Last10Module,
-    PickADateModule,
     NotFoundModule
   ],
   providers: [],
