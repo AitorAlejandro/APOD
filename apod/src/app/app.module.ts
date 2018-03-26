@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app.routing';
 import { HomeModule } from './views/home/home.module';
 import { Last10Module } from './views/last-10/last-10.module';
 import { PickADateModule } from './views/pick-a-date/pick-a-date.module';
+import { NotFoundModule } from './views/not-found/not-found.module';
 import { AppComponent } from './app.component';
 
 
@@ -19,7 +20,8 @@ import { AppComponent } from './app.component';
     ComponentsModule,
     HomeModule,
     Last10Module,
-    PickADateModule
+    PickADateModule,
+    NotFoundModule
   ],
   providers: [],
   bootstrap: [AppComponent]
