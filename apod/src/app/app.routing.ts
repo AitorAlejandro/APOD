@@ -13,11 +13,11 @@ const routes: Routes = [
   },
   {
     path: 'last-10',
-    component: Last10Component
+    loadChildren: './views/last-10/last-10.module#Last10Module'
   },
   {
     path: 'pick-a-date',
-    component: PickADateComponent
+    loadChildren: './views/pick-a-date/pick-a-date.module#PickADateModule'
   },
   {
     path: '404',
